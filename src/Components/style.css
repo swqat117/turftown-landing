@@ -1,0 +1,1377 @@
+/* EVENTS = VENUE && VENUE = EVENTS 
+    SORRY FOR THE INCONVENIENCE
+*/
+
+/* KEYFRAMES */
+
+@keyframes slide-from-right {
+  0% {
+    background-position: 200% 20%, -100% 80%;
+  }
+  100% {
+    background-position: 100% 20%, -50% 80%;
+  }
+}
+
+body {
+  padding-top: 64px !important;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fora {
+  /* padding: 5px 32px !important; */
+  text-decoration: none;
+  color: white !important;
+  font-weight: 700;
+  margin-left: 2rem;
+}
+
+.navimage {
+  padding: 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  /* margin-top: 64px; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* START FOR THE NAVBAR */
+
+.tofix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1500;
+  background-color: transparent !important;
+  color: black !important;
+}
+
+.navlogo {
+  width: 70%;
+}
+
+.search {
+  width: 21%;
+  /* margin-top: 12px; */
+}
+
+.prob {
+  max-width: 103px;
+}
+
+/* END FOR THE NAVBAR */
+
+/* START FOR THE CAROUSAL 1 */
+.carousal {
+  background-color: yellow;
+  text-align: center;
+  display: flex;
+}
+
+.MuiMobileStepper-root-67 {
+  /* display: none !important; */
+  background-color: #0956e6 !important;
+}
+
+.but1 {
+  /* background-color: white !important; */
+  background-color: none;
+  box-shadow: transparent;
+  color: white !important;
+  font-weight: 800 !important;
+  top: -320px;
+  z-index: 0;
+  /* font-size: 50px; */
+  /* color: white; */
+  /* height: 100px; */
+}
+
+/* START FOR THE "GET OUR APP" */
+
+.newdiv {
+  width: 60%;
+  padding-left: 30px;
+}
+
+.c3 {
+  background-color: #0956e6;
+  color: white;
+  height: 375px;
+  padding: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.in1 {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  font-size: 40px !important;
+}
+
+.forimg {
+  display: flex;
+  background-color: #0956e6;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 40%;
+  margin-right: 50px;
+}
+
+.logo {
+  max-width: 40%;
+  /* margin-left: 30px; */
+  margin-top: -40px;
+}
+
+.fortext {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  max-width: 40%;
+}
+
+.in2 {
+  /* background-color: yellow; */
+  background-color: #0956e6;
+  display: flex;
+  flex-direction: row;
+}
+
+.in2one {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icontext {
+  padding-left: 10px;
+}
+
+.in2two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 2.5%;
+}
+
+.img1 {
+  width: 40%;
+}
+
+/* END FOR THE "GET OUR APP" */
+
+/* START FOR THE BOTTOM THREE IMAGES */
+
+.c5 {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+}
+
+.img5 {
+  display: flex;
+  /* background-color: black; */
+  background-color: #0745ba !important;
+  padding: 76px;
+}
+
+.img5one {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: -90px;       */
+}
+
+.img5two {
+  display: flex;
+  justify-content: center;
+}
+
+.img5three {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bottom {
+  border-radius: 6px;
+  width: 120%;
+  /* height: 130%; */
+}
+
+/* END FOR THE BOTTOM THREE IMAGES */
+
+/* START FOR THE FOOTER */
+
+.c6 {
+  display: flex;
+  flex-direction: row;
+  height: 130px;
+  font-size: 16px;
+  padding: 16px;
+  background-color: #0745ba !important;
+  border-top: 2px solid gray;
+}
+
+.fone {
+  background-color: #0745ba !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fone_img {
+  padding-top: 50px;
+}
+
+.flogo {
+  max-width: 60% !important;
+}
+
+.ftwo {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerfooterone {
+  background-color: #0745ba !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow {
+  padding-right: 20px;
+}
+
+.footicon {
+  padding: 7px;
+  /* padding-left: 15px; */
+}
+
+.innerfootertwo {
+  background-color: maroon;
+  display: flex;
+  flex-direction: row;
+}
+
+.lastlogone {
+  display: flex;
+  background-color: #0745ba !important;
+  justify-content: flex-end;
+  align-items: center;
+  width: 140px;
+}
+
+.lastlogotwo {
+  display: flex;
+  background-color: #0745ba !important;
+  width: 140px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.footlogo {
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+}
+
+.footlogo1 {
+  padding-left: 50px;
+  width: 190px !important;
+}
+
+.mainfooter {
+  border-top: 2px solid gray;
+  /* width: 130% !important; */
+}
+
+/* END FOR THE FOOTER */
+
+/* OTHER */
+
+.forcarousal {
+  background-color: #0745ba !important;
+}
+
+.brandlogo {
+  padding-top: 8px;
+}
+
+/* FOR THE VENUES */
+
+.venuefootball {
+  padding: 3px;
+  border: 2px solid #ffbe43;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.venuecard {
+  /* width: 80%; */
+  background-image: url('../Assets/Images/footballcut.png');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position: bottom; */
+}
+
+.paperstyling {
+  width: 90% !important;
+  text-align: center;
+  background: url('../Assets/Images/footballcut.png');
+  background-repeat: no-repeat;
+  background-size: 49px 42px;
+  background-position: bottom right;
+}
+
+.gameinfostyle {
+  width: 90%;
+  text-align: center;
+}
+
+.gameinfoline {
+  height: 1px;
+  background-color: #9b9b9b;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridagain {
+  display: none !important;
+}
+
+/* START FOR EVENTS */
+
+.posterevents {
+  height: 500px;
+}
+
+.eventsreviewstext {
+  border-bottom: 2px solid #f4f5f8;
+}
+
+.eventsviewmore {
+  border: 2px solid #0956e6;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.address {
+  padding-top: 10px;
+}
+
+/* EVENTS IMAGE SLIDER */
+
+.component-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.component-slider .slider-container {
+  margin: 0 20px;
+  overflow: hidden;
+}
+.component-slider .slider-content {
+  display: inline-block;
+  transition: margin-left 0.15s ease-in;
+}
+.component-slider .caret {
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.component-slider .caret-right {
+  right: 0;
+}
+.component-slider .caret-left {
+  left: 0;
+}
+
+/*custom styles*/
+.menu-bar {
+  /* border: 1px solid gray; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  width: 400px;
+  display: inline-block;
+  padding: 25px 20px;
+  cursor: pointer;
+}
+
+.caret-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.caret-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.newslider {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slick-prev {
+  left: -15px !important;
+  z-index: 5000;
+  /* background-color: red; */
+}
+
+.slick-next {
+  right: -15px !important;
+  /* background-color: red; */
+  z-index: 5000;
+}
+
+.venueslistgrid {
+  color: #f4f5f8;
+  font-weight: 600;
+}
+
+.venueslistgridborder {
+  /* border: 2px solid black; */
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+
+.react-tabs__tab--selected {
+  border-color: transparent !important;
+  border-bottom: 2.5px solid #ffbe43 !important;
+}
+
+.react-tabs__tab-list {
+  margin: 0px !important;
+}
+
+.selectorgrid {
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.selectorgrid:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.eventspaper {
+  background: url('../Assets/Images/footballcut.png');
+  background-repeat: no-repeat;
+  background-size: 38px 31px;
+  background-position: bottom right;
+}
+
+textarea {
+  width: 98%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: white;
+  font-size: 16px;
+  resize: none;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.5);
+}
+
+.reachtext {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 8px !important;
+  height: 39px;
+  background-color: #ebecee;
+  border: none !important;
+}
+
+.reachusbutton {
+  height: 39px;
+  width: 145px;
+  border-radius: 8px;
+  background-color: #0956e6;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.5);
+  /* font-size: 18px; */
+  font-weight: bold;
+  /* text-align: center; */
+  /* line-height: 24px; */
+  color: #ffffff;
+}
+
+.forfootball {
+  background: url('../Assets/Images/footballyellow.png'),
+    url('../Assets/Images/footballyellow1.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 7% 46%;
+  background-position: 1% 50%, 99% 50%;
+}
+
+.forbadminton {
+  background: url('../Assets/Images/badmintonred.png'),
+    url('../Assets/Images/badmintonred1.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 7% 46%;
+  background-position: 1% 50%, 99% 50%;
+}
+
+.forbasketball {
+  background: url('../Assets/Images/basketballpink.png'),
+    url('../Assets/Images/basketballpink1.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 7% 46%;
+  background-position: 1% 50%, 99% 50%;
+}
+
+.forcricket {
+  background: url('../Assets/Images/cricketgreen.png'),
+    url('../Assets/Images/cricketgreen1.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 7% 46%;
+  background-position: 1% 50%, 99% 50%;
+}
+
+.listvenuesimage {
+  object-fit: cover;
+}
+
+.listvenuesdiv2 {
+  box-shadow: 0px 2px 4px -2px black;
+}
+
+.noneshadow {
+  box-shadow: none;
+}
+
+.homeback1 {
+  background: url('../Assets/Images/Dots.png');
+  background-repeat: no-repeat;
+  background-size: 100% 63%;
+  z-index: -1;
+  /* background-size: cover; */
+  background-position: center;
+  /* background: radial-gradient(ellipse at center, #05399b 0%, #05399b 30%, transparent 30%);
+  background-size: 10px 10px; */
+  /* border-radius: 10px */
+  /* background-image:  radial-gradient( closest-side at 60% 55%,#05399b 40%, transparent 0%); */
+  /* background-color: #E53935 !important ; */
+  /* background-position: 0 0, 50px 50px; */
+  /* background-size: 10px 10px; */
+}
+
+/* .homeback2{
+    background: url("../Assets/Images/pinkstripes.png"), url("../Assets/Images/pinkstripes1.png");
+    background-repeat: no-repeat, no-repeat;   
+    background-size: 50% 7%, 50% 7%;
+    background-position: 100% 20%, -50% 80%;
+    animation: slide-from-right 3s cubic-bezier(0, 0.5, 0, 1) forwards;
+} */
+[data-aos='homeback2'].aos-animate {
+  background: url('../Assets/Images/pinkstripes.png'),
+    url('../Assets/Images/pinkstripes1.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50% 7%, 50% 7%;
+  /* background-position: 100% 20%, -50% 80%; */
+  animation: slide-from-right 3s cubic-bezier(0, 0.5, 0, 1) forwards;
+}
+ 
+
+[data-aos='homeback5'].aos-animate {
+  background: url('../Assets/Images/footballyellow.png'),
+    url('../Assets/Images/footballyellow1.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 10% 7%, 10% 7%;
+  background-position: 100% 20%, -50% 80%;
+  animation: slide-from-right 3s cubic-bezier(0, 0.5, 0, 1) forwards;
+}
+
+[data-aos='homeback4'].aos-animate {
+  background: url('../Assets/Images/redstripes.png'),
+    url('../Assets/Images/pinkstripes1.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50% 7%, 50% 7%;
+  /* background-position: 100% 20%, -50% 80%; */
+
+  animation: slide-from-right 3s cubic-bezier(0, 0.5, 0, 1) forwards;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 56px;
+  }
+
+  html {
+    width: 100% !important;
+  }
+  [data-aos='homeback2'].aos-animate {
+    background: url('../Assets/Images/pinkstripes.png'),
+      url('../Assets/Images/pinkstripes1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 90% 7%, 90% 7%;
+    background-position: 100% 20%, -50% 30%;
+    animation: slide-from-right 3s cubic-bezier(0, 0.5, 0, 1) forwards;
+  }
+  [data-aos='homeback4'].aos-animate {
+    background: url('../Assets/Images/redstripes.png'),
+      url('../Assets/Images/pinkstripes1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 90% 7%, 90% 7%;
+    background-position: 100% 20%, -50% 80%;
+  
+    animation: slide-from-right 3s cubic-bezier(0, 0.5, 0, 1) forwards;
+  }
+
+  .img1 {
+    width: 30% !important;
+    align-self: center;
+    margin-left: 55px;
+    justify-content: center;
+  }
+
+  .topg1 {
+    justify-content: center !important;
+    align-items: flex-end !important;
+    /* margin-right: 80px; */
+    padding-top: 70px;
+  }
+
+  .newdiv {
+    width: 100%;
+    text-align: center;
+    padding-right: 5px;
+  }
+
+  .topg2 {
+    justify-content: center !important;
+    padding: 5px;
+  }
+
+  .topg21 {
+    margin-left: 12px;
+  }
+
+  .topg22 {
+    margin-left: 20px;
+  }
+
+  .topg23 {
+    margin-right: 4px;
+  }
+
+  .footerlogo {
+    width: 30%;
+    padding: 20px;
+  }
+
+  .gridfooter2,
+  .gridfooter3 {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .gameinfo1 {
+    justify-content: center !important;
+    align-items: center !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 14px !important;
+  }
+
+  .gameinfotext {
+    padding-bottom: 20px !important;
+  }
+
+  .divgameinfo {
+    padding: 44px !important;
+  }
+
+  .gameinfogroup {
+    padding: 0 !important;
+  }
+
+  .gameinfotextbottom {
+    padding: 0px 25px !important;
+    font-size: 14px !important;
+  }
+
+  .venueone {
+    justify-content: center !important;
+  }
+
+  .votestop {
+    padding-top: 15px;
+  }
+
+  .stars {
+    padding-top: 10px !important;
+  }
+
+  .votings {
+    padding-bottom: 10px;
+  }
+
+  .arrow {
+    justify-content: center !important;
+    transform: rotate(90deg);
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .imagecourt {
+    width: 105% !important;
+    height: 70% !important;
+  }
+
+  .gridvenueinfo {
+    padding: 20px !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .tikitaka {
+    margin: 0px !important;
+    font-size: 18px !important;
+    /* margin-left: 10% !important; */
+    width: 100%;
+    /* text-align: center !important; */
+  }
+
+  .under17 {
+    margin: 0px !important;
+    /* margin-left: 17% !important; */
+    width: 100%;
+    font-size: 17px !important;
+  }
+
+  .venuediv1 {
+    /* margin-left: 0.2%; */
+    text-align: center !important;
+  }
+
+  .venuediv2 {
+    /* margin-left: 60px; */
+    padding-top: 20px;
+    font-size: 12px !important;
+  }
+
+  .venuediv3 {
+    height: 50px !important;
+    width: 90px;
+    margin-left: 20px !important;
+  }
+
+  .gridvenueinfo2 {
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 20px !important;
+    display: none !important;
+  }
+
+  .november {
+    font-size: 15px !important;
+  }
+
+  .dates {
+    font-size: 11px !important;
+  }
+
+  .postervenue {
+    height: 250px;
+  }
+
+  .gameinfofontchange {
+    font-size: 12px !important;
+    margin-bottom: 32px !important;
+  }
+
+  .organised {
+    font-size: 14px !important;
+  }
+
+  .callbutton {
+    width: 77px !important;
+    height: 36px !important;
+  }
+
+  .halftimeimg {
+    width: 60px !important;
+    height: 78px !important;
+  }
+
+  .noofplayersimg {
+    width: 75px !important;
+    height: 57px !important;
+  }
+
+  .groupimg {
+    width: 64px !important;
+    height: 66px !important;
+  }
+
+  .gameimg1 {
+    padding-bottom: 15px !important;
+  }
+
+  .gamemarginalter {
+    margin-bottom: 16px !important;
+  }
+
+  .smallicon {
+    width: 5px !important;
+  }
+
+  .gamecenteralign {
+    justify-content: center;
+  }
+
+  .gridagain {
+    display: flex !important;
+  }
+
+  /* FOR THE EVENTS PAGE */
+  .grideventsinfo {
+    display: flex !important;
+  }
+
+  .eventsreviewsdiv1 {
+    padding: 0px !important;
+    padding-top: 20px !important;
+    width: 100% !important;
+  }
+
+  .eventsreviewsdiv2 {
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px 10px !important;
+  }
+
+  .eventsreviewsdiv3 {
+    padding: 0px 10px;
+  }
+
+  .eventsreviewsgrid1 {
+    justify-content: center !important;
+    /* flex-direction: column !important; */
+    align-items: center !important;
+  }
+
+  .eventsreviewsgrid2 {
+    padding: 5px 10px !important;
+  }
+
+  .eventscardsgrid1 {
+    padding: 0px !important;
+    padding: 15px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .eventscardsgrid2 {
+    padding-bottom: 30px !important;
+  }
+
+  .eventscardsgrid3 {
+    padding: 0px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .eventscardsgrid4 {
+    flex-direction: column !important;
+  }
+
+  .eventscardsgrid5 {
+    flex-direction: column !important;
+  }
+
+  .eventscardsgrid6 {
+    /* margin-left: -30px !important; */
+    padding: 0px 15px !important;
+  }
+
+  .eventscardsgrid7 {
+    /* margin-left: -6px; */
+    padding-top: 0px !important;
+  }
+
+  .eventscardsdiv1 {
+    width: 90% !important;
+  }
+
+  .eventscardsdiv2 {
+    padding-top: 10px !important;
+    padding-bottom: 25px !important;
+  }
+
+  .eventscardsdiv3 {
+    padding-top: 5px !important;
+    padding-bottom: 25px !important;
+  }
+
+  .eventscardsdiv4 {
+    padding-top: 10px !important;
+    padding-bottom: 5px !important;
+  }
+
+  .eventscardsdiv5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .settop {
+    padding-top: 40px !important;
+  }
+
+  .phonespan {
+    margin-top: -6px !important;
+    display: flex;
+  }
+
+  .tikitakaagain {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .phoneimage {
+    width: 27px !important;
+  }
+
+  .tikitakaandaddress {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .menu-bar {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  .brand-logo {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 7px;
+    margin-right: -30%;
+  }
+
+  .listvenuesposter {
+    height: 200px !important;
+  }
+
+  .listvenuesdiv1 {
+    padding: 10px !important;
+  }
+
+  .listvenuesimage {
+    width: 300px !important;
+  }
+
+  .listvenuesdiv2 {
+    width: 300px !important;
+  }
+
+  .selector {
+    width: 100% !important;
+  }
+
+  .selectordiv {
+    padding: 20px 0px !important;
+  }
+
+  .homeone {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hometwo {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .homediv1 {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .homediv2 {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .homediv3 {
+    font-size: 26px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .homediv4 {
+    width: 100% !important;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .homeimg1 {
+    width: 35% !important;
+  }
+
+  .homeimg2 {
+    width: 35% !important;
+  }
+
+  .homediv5 {
+    padding: 20px !important;
+  }
+
+  .homediv6 {
+    width: 100% !important;
+    text-align: center;
+    display: block !important;
+  }
+
+  .homediv7 {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .homediv8 {
+    width: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .homediv9 {
+    justify-content: center !important;
+    align-items: center !important;
+    padding-top: 30px;
+    font-size: 20px;
+  }
+
+  .homediv10 {
+    text-align: center;
+  }
+
+  .homethree {
+    justify-content: center !important;
+  }
+
+  .reachusimg1 {
+    width: 100% !important;
+  }
+
+  .reachusimg2 {
+    width: 100% !important;
+  }
+
+  .reachusdiv1 {
+    padding: 20px !important;
+  }
+
+  .reachusdiv2 {
+    font-size: 30px !important;
+  }
+
+  .reachuspaper {
+    padding: 5px !important;
+  }
+
+  .reachusdiv3 {
+    font-size: 25px !important;
+  }
+
+  .reachusdiv4 {
+    font-size: 15px !important;
+    text-align: center;
+  }
+
+  .reachusimg3 {
+    width: 35px !important;
+    height: 28px !important;
+  }
+
+  .reachusgrid1 {
+    padding: 0px !important;
+  }
+
+  .reachusdiv5 {
+    width: 100% !important;
+  }
+
+  .reachusdiv6 {
+    padding: 15px !important;
+  }
+
+  .reachusdiv7 {
+    padding: 0px !important;
+  }
+
+  .reachusdiv8 {
+    padding-left: 20px;
+  }
+
+  .reachusdiv9 {
+    padding-right: 20px !important;
+  }
+
+  .reachusdiv10 {
+    padding-right: 38px !important;
+  }
+
+  .reachusdiv11 {
+    margin-bottom: 6px !important;
+    padding: 0px !important;
+  }
+
+  .reachusdiv12 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+  .hide-on-med-and-down {
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .img1 {
+    width: 45% !important;
+    align-self: center;
+    margin-left: 65px;
+    justify-content: center;
+    align-items: flex-start !important;
+    /* padding-top: -70px; */
+    padding-bottom: 40px;
+    margin-top: -30px !important;
+  }
+  .topg2 {
+    justify-content: center !important;
+    padding: 8px;
+  }
+  .topg21 {
+    margin-left: 12px;
+  }
+
+  .topg22 {
+    margin-left: 20px;
+  }
+
+  .topg23 {
+    margin-right: 4px;
+  }
+
+  .tikitaka {
+    font-size: 28px !important;
+  }
+
+  .under17 {
+    font-size: 18px !important;
+  }
+
+  .venuediv2 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .venuefootball {
+    font-size: 20px !important;
+    border-radius: 10px !important;
+  }
+
+  .venuediv3 {
+    height: 80px !important;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .november {
+    font-size: 24px !important;
+  }
+
+  .dates {
+    font-size: 18px !important;
+  }
+
+  .venuediv1 {
+    text-align: center !important;
+  }
+
+  .gridvenueinfo2 {
+    justify-content: center !important;
+    display: none !important;
+  }
+
+  .gridagain {
+    display: flex !important;
+  }
+
+  .imagecourt {
+    width: 100% !important;
+    height: 70% !important;
+  }
+
+  .venueone {
+    justify-content: center !important;
+  }
+
+  .stars {
+    padding-top: 10px !important;
+  }
+
+  .votings {
+    padding-bottom: 10px;
+  }
+
+  .arrow {
+    justify-content: center !important;
+    transform: rotate(90deg);
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .votestop {
+    padding-top: 15px;
+  }
+
+  .eventscardgrid1 {
+    flex-direction: row !important;
+  }
+
+  .eventscardsgrid5 {
+    flex-direction: row !important;
+  }
+
+  .eventscardsgrid3 {
+    padding: 0px !important;
+  }
+
+  .gridagain {
+    display: flex !important;
+  }
+
+  .displayforpads {
+    display: flex !important;
+  }
+
+  .eventscardsdiv5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .tikitakaandaddress {
+    justify-content: center !important;
+  }
+
+  .listvenuesgrid1 {
+    padding: 30px 50px !important;
+  }
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+@-webkit-keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.nav_visible {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.nav_not_visible {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.shadows2 {
+  -webkit-box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 17px 0.5px rgba(0, 0, 0, 0.3);
+}
