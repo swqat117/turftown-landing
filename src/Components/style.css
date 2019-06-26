@@ -515,10 +515,12 @@ textarea {
   background-color: #ebecee;
   border: none !important;
 }
-
+textarea{
+  border:none;
+}
 .reachusbutton {
   height: 39px;
-  width: 145px;
+  width: 92%;
   border-radius: 8px;
   background-color: #0956e6;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.5);
@@ -628,11 +630,17 @@ textarea {
 @media only screen and (max-width: 768px) {
   body {
     padding-top: 56px;
+    overscroll-behavior-x: none;
+    overflow-x: hidden;
   }
 
-  html {
-    width: 100% !important;
+  html{
+    overscroll-behavior-x: none;
+    overflow-x: hidden;
   }
+
+
+  
   [data-aos='homeback2'].aos-animate {
     background: url('../Assets/Images/pinkstripes.png'),
       url('../Assets/Images/pinkstripes1.png');
@@ -1102,7 +1110,7 @@ textarea {
   }
 
   .reachusdiv2 {
-    font-size: 30px !important;
+    font-size: 18px !important;
   }
 
   .reachuspaper {
@@ -1114,8 +1122,9 @@ textarea {
   }
 
   .reachusdiv4 {
-    font-size: 15px !important;
-    text-align: center;
+    
+    font-size: 14px !important;
+    text-align: justify;
   }
 
   .reachusimg3 {
@@ -1129,6 +1138,7 @@ textarea {
 
   .reachusdiv5 {
     width: 100% !important;
+    align-items: center
   }
 
   .reachusdiv6 {
@@ -1136,7 +1146,7 @@ textarea {
   }
 
   .reachusdiv7 {
-    padding: 0px !important;
+    padding: 14px !important;
   }
 
   .reachusdiv8 {
