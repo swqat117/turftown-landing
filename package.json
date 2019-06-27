@@ -57,7 +57,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"http://159.65.146.12:3040/api/",
+  "proxy":"http://159.65.146.12:3040",
 
   
   "devDependencies": {
