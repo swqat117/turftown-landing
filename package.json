@@ -57,6 +57,9 @@
       "last 1 safari version"
     ]
   },
+  "proxy":"http://159.65.146.12:3040/api/",
+
+  
   "devDependencies": {
     "react-alice-carousel": "^1.13.11"
   }
