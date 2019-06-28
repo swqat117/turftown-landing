@@ -6,6 +6,7 @@ import bluestar from '../../../../Assets/Images/bluestar.png'
 import grayrupee from '../../../../Assets/Images/grayrupee.png'
 import person from '../../../../Assets/Images/person.png'
 import history from '../../../history'
+import { Redirect, Link } from 'react-router-dom';
 
 const s = {
     
@@ -32,7 +33,6 @@ const s = {
 
     style4: {
         backgroundColor: '#F4F5F8', 
-        // backgroundColor: 'black',
         display: 'flex', 
         flexDirection: 'column', 
         width: 332,
@@ -105,31 +105,31 @@ class Listvenuesgrids extends Component{
 
     state = {
         venues: venues,
-        main: []
+        main: [],
     }
 
     componentDidMount(){
         axios.post('http://159.65.146.12:3040/api/admin/venue',{},axiosConfig)
             .then(res => {
-                // console.log("Ghants",res)
                 this.setState({
                     main: res.data.data
                 })
+            })
+            .catch( err =>{
+                console.log("Error", err.response)
             })
     }
 
     handleClick = (object) => {
         history.push({
             pathname: '/venue',
-            state: { data: object }
-        })
+            state: { data: object } 
+        })     
         this.props.toggle()
     }
 
     render(){
-        // if(this.state.main.length >0){
             return(
-                
                 <div className="listvenuesdiv1" style={ s.style1 } >
                     <Grid container style={ s.style2 }>
                      
@@ -138,7 +138,7 @@ class Listvenuesgrids extends Component{
                             <Grid className="listvenuesgrid1" item lg={4} md={6} style={ s.style3 }>
                                     <div className="listvenuesdiv2" style={ s.style4 } onClick={()=> this.handleClick(venue) }>
                                         <div>
-                                            <img className="listvenuesimage" src= { venue.venue.venue_display_picture } width="332px" height="135px" />
+                                            <img className="listvenuesimage" src= { venue.venue.venue_cover_picture } width="332px" height="135px" />
                                         </div>
 
                                         <div style={ s.style5 } >

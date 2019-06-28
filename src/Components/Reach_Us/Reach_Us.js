@@ -79,7 +79,7 @@ class ReachUs extends Component{
                         </div>
 
                         <div className="reachusdiv5" style={{ display: 'flex', flexDirection: 'column', width: '35%', paddingTop: 40 }} >
-                            <div style={{ display: 'flex',width: '80%' ,flex:1,justifyContent: 'center', alignItems: 'center', fontSize: 30, fontWeight: 600, paddingBottom: 20 }} >
+                            <div className="reachusdiv13" style={{ display: 'flex',width: '80%' ,flex:1,justifyContent: 'center', alignItems: 'center', fontSize: 30, fontWeight: 600, paddingBottom: 20 }} >
                                 Contact Us @
                             </div>
                             <div style={{ display: 'flex', flex:1, paddingBottom: 10  }} >

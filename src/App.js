@@ -5,7 +5,6 @@ import Footer from './Components/Footer'
 import Home from './Components/Home/Screen/Home'
 import Event from './Components/Events/Event_Page/Screen/Events'
 import Venue from './Components/Venues/Venue_Page/Screen/Venues'
-import VenuesList from './Components/Venues/Venues_Page_List/Screen/Venues_List'
 import EventsList from './Components/Events/Events_Page_List/Screen/Events_List'
 import ReachUs from './Components/Reach_Us/Reach_Us'
 import { Router} from 'react-router-dom'
@@ -21,7 +20,7 @@ class App extends Component{
 
    
   componentDidMount() {
-    // window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll);
     AOS.init();
 }
 
@@ -36,7 +35,6 @@ handleScroll = (event) =>{
 }
 
   render(){
-
     return(
       <BrowserRouter>
         <div className="App">
@@ -46,7 +44,6 @@ handleScroll = (event) =>{
                 <Route exact path="/" component={ Home } />
                 <Route path="/venue" component={ Venue } />
                 <Route path="/event" component={ Event } />
-                {/* <Route path="/explore" component={ VenuesList } /> */}
                 <Route path="/listevents" component={ EventsList } />
                 <Route path="/reachus" component={ ReachUs } />              
               </Switch>

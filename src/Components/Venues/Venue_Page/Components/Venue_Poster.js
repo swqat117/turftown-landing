@@ -6,7 +6,6 @@ import '../../../style.css'
 const s = {
     style1: {
         marginBottom: -9, 
-        // marginTop: -65 
     }
 }
 

@@ -5,7 +5,6 @@ import VenueCard from '../Components/Venue_Card'
 import VenueReviews from '../Components/Venue_Reviews'
 import {Helmet} from "react-helmet";
 import VenueSlider from '../Components/Venue_Slider'
-import axios from 'axios'
 import history from '../../../history'
 
 const axiosConfig = {

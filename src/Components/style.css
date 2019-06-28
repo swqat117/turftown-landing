@@ -263,9 +263,10 @@ h3 {
 }
 
 .innerfootertwo {
-  background-color: maroon;
   display: flex;
   flex-direction: row;
+  padding-top: 12px;
+  padding-bottom: 20px;
 }
 
 .lastlogone {
@@ -296,10 +297,6 @@ h3 {
   width: 190px !important;
 }
 
-.mainfooter {
-  border-top: 2px solid gray;
-  /* width: 130% !important; */
-}
 
 /* END FOR THE FOOTER */
 
@@ -461,8 +458,8 @@ h3 {
 }
 
 .venueslistgrid {
-  color: #f4f5f8;
-  font-weight: 600;
+  color: #6d6d6d;
+  font-weight: 700;
 }
 
 .venueslistgridborder {
@@ -580,37 +577,20 @@ textarea{
   background-repeat: no-repeat;
   background-size: 100% 63%;
   z-index: -1;
-  /* background-size: cover; */
   background-position: center;
-  /* background: radial-gradient(ellipse at center, #05399b 0%, #05399b 30%, transparent 30%);
-  background-size: 10px 10px; */
-  /* border-radius: 10px */
-  /* background-image:  radial-gradient( closest-side at 60% 55%,#05399b 40%, transparent 0%); */
-  /* background-color: #E53935 !important ; */
-  /* background-position: 0 0, 50px 50px; */
-  /* background-size: 10px 10px; */
 }
 
-/* .homeback2{
-    background: url("../Assets/Images/pinkstripes.png"), url("../Assets/Images/pinkstripes1.png");
-    background-repeat: no-repeat, no-repeat;   
-    background-size: 50% 7%, 50% 7%;
-    background-position: 100% 20%, -50% 80%;
-    animation: slide-from-right 3s cubic-bezier(0, 0.5, 0, 1) forwards;
-} */
 [data-aos='homeback2'].aos-animate {
   background: url('../Assets/Images/pinkstripes.png'),
     url('../Assets/Images/pinkstripes1.png');
   background-repeat: no-repeat, no-repeat;
   background-size: 50% 7%, 50% 7%;
-  /* background-position: 100% 20%, -50% 80%; */
   animation: slide-from-right 3s cubic-bezier(0, 0.5, 0, 1) forwards;
 }
  
 
 [data-aos='homeback5'].aos-animate {
-  background: url('../Assets/Images/footballyellow.png'),
-    url('../Assets/Images/footballyellow1.png');
+  background: url('../Assets/Images/footballyellow.png'),url('../Assets/Images/footballyellow1.png');
   background-repeat: no-repeat, no-repeat;
   background-size: 10% 7%, 10% 7%;
   background-position: 100% 20%, -50% 80%;
@@ -618,13 +598,76 @@ textarea{
 }
 
 [data-aos='homeback4'].aos-animate {
-  background: url('../Assets/Images/redstripes.png'),
-    url('../Assets/Images/pinkstripes1.png');
+  background: url('../Assets/Images/redstripes.png'),url('../Assets/Images/pinkstripes1.png');
   background-repeat: no-repeat, no-repeat;
   background-size: 50% 7%, 50% 7%;
-  /* background-position: 100% 20%, -50% 80%; */
-
   animation: slide-from-right 3s cubic-bezier(0, 0.5, 0, 1) forwards;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+@-webkit-keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.nav_visible {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.nav_not_visible {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 @media only screen and (max-width: 768px) {
@@ -699,6 +742,7 @@ textarea{
   .footerlogo {
     width: 30%;
     padding: 20px;
+    padding-top: 30px !important; 
   }
 
   .gridfooter2,
@@ -1099,6 +1143,7 @@ textarea{
 
   .reachusimg1 {
     width: 100% !important;
+    padding-bottom: 20px
   }
 
   .reachusimg2 {
@@ -1119,6 +1164,8 @@ textarea{
 
   .reachusdiv3 {
     font-size: 25px !important;
+    padding-top: 19px !important;   
+    padding-bottom: 24px !important;
   }
 
   .reachusdiv4 {
@@ -1138,11 +1185,13 @@ textarea{
 
   .reachusdiv5 {
     width: 100% !important;
-    align-items: center
+    align-items: center;
+    padding-left: 20px;
   }
 
   .reachusdiv6 {
     padding: 15px !important;
+    padding-bottom: 40px !important;
   }
 
   .reachusdiv7 {
@@ -1169,6 +1218,10 @@ textarea{
   .reachusdiv12 {
     width: 100% !important;
   }
+  
+  .reachusdiv13{
+    width: 100% !important;
+}
 }
 
 @media (min-width: 768px) and (max-width: 1025px) {
@@ -1314,74 +1367,3 @@ textarea{
   }
 }
 
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-}
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-}
-
-@-webkit-keyframes fadeOutUp {
-  0% {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-
-@keyframes fadeOutUp {
-  0% {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-
-.nav_visible {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-
-.nav_not_visible {
-  -webkit-animation-name: fadeOutUp;
-  animation-name: fadeOutUp;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-
-.shadows2 {
-  -webkit-box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 17px 1px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 17px 0.5px rgba(0, 0, 0, 0.3);
-}

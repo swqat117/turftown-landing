@@ -33,8 +33,7 @@ onChange=(e)=>{
 
 
   render() {
-    let x = !this.props.hover
-    console.log("ghants", this.props,x)
+    let x = true
     let check = this.props
     return(
       <div>
@@ -45,7 +44,7 @@ onChange=(e)=>{
             className= { this.props.show === "football" ? "forfootball": this.props.show === "badminton" ? "forbadminton" : this.props.show ==="basketball" ? "forbasketball" : this.props.show === "cricket" ? "forcricket" : "" }
           >
             
-            <Grid className="selectorgrid" item lg={3} onClick={ ()=>this.handleclick("football") } style={ 
+            <Grid className="selectorgrid" item lg={3} style={ 
                   (x && this.props.show === "football")  ? { display: 'block' } : { display: 'none' }
               }  >                        
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', padding: 20  }}>
@@ -58,7 +57,7 @@ onChange=(e)=>{
                 </div>
             </Grid>
 
-            <Grid className="selectorgrid" item lg={3} onClick={ ()=> this.handleclick("badminton") } style={ 
+            <Grid className="selectorgrid" item lg={3} style={ 
                 (x && this.props.show === "badminton") ? { display: 'block' } : { display: 'none' }
             }>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', padding: 20   }}>
@@ -71,7 +70,7 @@ onChange=(e)=>{
                 </div>
             </Grid>
 
-            <Grid className="selectorgrid" item lg={3} onClick={ ()=> this.handleclick("basketball") } style={ 
+            <Grid className="selectorgrid" item lg={3} style={ 
                 (x && this.props.show === "basketball") ? { display: 'block' } : { display: 'none' }
               }>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', padding: 20   }}>
@@ -84,7 +83,7 @@ onChange=(e)=>{
                 </div>
             </Grid>
 
-            <Grid className="selectorgrid" item lg={3} onClick={ ()=> this.handleclick("cricket") } style={ 
+            <Grid className="selectorgrid" item lg={3} style={ 
                 (x && this.props.show === "cricket") ? { display: 'block' } : { display: 'none' }
               }>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', padding: 20  }}>
@@ -137,12 +136,11 @@ onChange=(e)=>{
 
           <TabPanel>
             <div style={{ color: 'purple' }}>
-              {/* <div style={{ backgroundColor: '#0956E6' }} >{ check.type }</div>  */}
               <EventsListGrid toggle={this.props.toggle}  />
             </div>
           </TabPanel>
         </Tabs>
-      </div>
+        </div>
       )
   }
 }
