@@ -22,18 +22,18 @@ class HomePage1 extends Component{
                     <Fade right delay={500}  style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                         
                         <div className="homediv2" style={{ display: 'flex', flexDirection: 'column', flex: 1,width: '100%', justifyContent: 'flex-end', alignItems: 'flex-start', paddingTop: '10%'}} >
-                            <div className="homediv3" style={{ fontSize: 38, fontWeight: 700, background: 'transparent', width: '90%' }} >
+                            <div className="homediv3" style={{ fontSize: 38, fontWeight: 700, background: '#0956e6', width: '90%' }} >
                                 Your Friendly Neighbourhood Sports App
                             </div>
-                            <div className="homediv4" style={{ width: '90%', fontWeight: 600, background: 'transparent', fontSize: 16, paddingTop: 18, paddingBottom: '5%' }} >
+                            <div className="homediv4" style={{ width: '90%', fontWeight: 600, background: '#0956e6', fontSize: 16, paddingTop: 18, paddingBottom: '5%' }} >
                                 A revolutionary neighbourhood sporting experience.
                             </div>
                         </div>
 
                         <div style={{ display: 'flex', flex: 1}} >
                             <div className="homediv1" style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}} >
-                                <img className= "homeimg1" src={ android } width="25%" style={{ paddingRight: 10, background: '#0956e6' }} />
-                                <img className="homeimg2" src={ apple } width="25%" style={{ paddingLeft: 10, background: '#0956e6' }} />
+                                <img className= "homeimg1" src={ android } width="25%" style={{ background: '#0956e6', background: '#0956e6', paddingBottom: 10 }} />
+                                <img className="homeimg2" src={ apple } width="25%" style={{ paddingLeft: 10, background: '#0956e6', background: '#0956e6', paddingBottom: 10 }} />
                             </div>
                       
                         </div>   
